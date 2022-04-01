@@ -1,14 +1,13 @@
-// perulangan bilangan prima 1-50
-// for(i=1;i<=5;i++){
-//     console.log(i);
-//     let a=0;
-    // for(let j=1;j<=i;j++){
-    //     console.log("J:"+j);
-    //     if(i%j==0){
-    //         a++;
-    //     }
-    // }
-// }
+// perulangan bilangan genap 1-5
+let awal=prompt("Batas Awal :");
+let akhir=prompt("Batas Akhir :");
+for(i=awal;i<=akhir;i++){
+    // console.log(i);
+    // 1,2,3,4,5
+    if(i%2==0){
+        console.log(i);
+    }
+}
 // let i=0;
 // i=10;
 // console.log(i);
@@ -61,8 +60,8 @@ if (times > 3) {
     //     console.log(hello+greeting);// "say Hello instead"
     // }
     let hello = "Hello";
-    console.log(hello);
+    // console.log(hello);
 }
 // console.log(hello) // hello is not defined
 // abc();
-console.log(hello+name);
+// console.log(hello+name);
